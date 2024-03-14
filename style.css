@@ -40,6 +40,7 @@ body {
     bottom: 10px; /* Distance from the bottom */
     left: 10px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other elements */
+    margin-bottom: 3rem;
 }
 
 /* header */
