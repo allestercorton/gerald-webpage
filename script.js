@@ -63,4 +63,18 @@ document.addEventListener('DOMContentLoaded', () => {
         link.click();
         document.body.removeChild(link);
     });
+
+    // Function to update the visitor count
+    function updateVisitorCount() {
+        // You can replace this with your own method of counting visitors (e.g., fetching from a database)
+        // For this example, let's generate a random count
+        var count = Math.floor(Math.random() * 1000); // Random count for demonstration
+        document.getElementById("visitorCount").textContent = count;
+    }
+
+    // Call the function to update the visitor count initially
+    updateVisitorCount();
+
+    // Update the visitor count every 5 seconds (for demonstration)
+    setInterval(updateVisitorCount, 5000); // Update every 5 seconds
 });
