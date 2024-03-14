@@ -618,6 +618,7 @@ footer {
 
     .hero .profile {
         max-width: 14rem;
+        margin-top: 2rem;
     }
 
     .projects .cont {
