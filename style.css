@@ -33,13 +33,14 @@ body {
 #visitorCount {
     background-color: #333; /* Background color */
     color: #fff; /* Text color */
-    padding: 5px 10px; /* Padding */
+    padding: 0.7rem 1.4rem; /* Padding */
+    font-size: 1.1rem;
     border-radius: 5px; /* Rounded corners */
     position: fixed; /* Fixed position */
     bottom: 10px; /* Distance from the bottom */
     left: 10px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other elements */
-  }
+}
 
 /* header */
 header {

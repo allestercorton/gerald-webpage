@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // You can replace this with your own method of counting visitors (e.g., fetching from a database)
         // For this example, let's generate a random count
         var count = Math.floor(Math.random() * 1000); // Random count for demonstration
-        document.getElementById("visitorCount").textContent = count;
+        document.getElementById("visitorCount").innerHTML = `<i class="fas fa-face-smile-beam"></i> ${count}`;
     }
 
     // Call the function to update the visitor count initially
