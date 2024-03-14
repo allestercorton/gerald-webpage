@@ -513,11 +513,17 @@ footer {
         display: flex;
     }
 
+    .hero {
+        margin-top: 8.4rem;
+        height: 56rem;
+        overflow: none;
+    }
+
     .hero .info {
         text-align: center;
         flex-direction: column-reverse;
         align-items: center;
-        padding-top: 1.5rem;
+        padding-top: 4re;
     }
 
     .hero .profile {
