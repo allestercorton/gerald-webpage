@@ -514,9 +514,9 @@ footer {
     }
 
     .hero {
-        margin-top: 8.4rem;
         height: 56rem;
         overflow: none;
+        padding-top: 8rem;
     }
 
     .hero .info {
@@ -577,6 +577,10 @@ footer {
 @media (max-width: 500px) {
     .header {
         padding: 1.4rem 1.8rem;
+    }
+
+    .hero {
+        padding-top: 5rem;
     }
 
     .hero h2 {
